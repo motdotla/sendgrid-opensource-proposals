@@ -19,28 +19,28 @@ section      = {};
 filters      = {};
 ```
 
-| Nodejs                  | PHP                     | Python                  | Proposed camel or snake |
-| ----------------------- | ----------------------- | ----------------------- | ----------------------- |
-| addTo                   | addTo                   |                         | addTo                   |
-|                         | setTo                   |                         | setTo                   |
-|                         | setTos                  |                         | REMOVE                  |
-|                         | removeTo                |                         | REMOVE                  |
-|                         | setSubstitutions        | set_substitution        | setSub                  |
-| addSubVal               | addSubstitution         | add_substitution        | addSub                  |
-| setUniqueArgs           | setUniqueArgs           | set_unique_args         | setUniqueArgs           |
-| addUniqueArgs           | addUniqueArgs           | add_unique_args         | addUniqueArgs           |
-| addCategory             | addCategory             | add_category            | addCategory             |
-| setCategory             | setCategory             | set_category            | setCategory             |
-|                         | setCategories           |                         | REMOVE                  |
-|                         | removeCategory          |                         | REMOVE                  |
-| setSection              | setSections             | set_section             | setSection              |
-| addSection              | addSection              | add_section             | addSection              |
-| setFilterSetting        | setFilterSetting        |                         | setFilters              |
-| addFilterSetting        | addFilterSetting        | add_filter              | addFilters              |
-|                         | setHeaders              |                         | REMOVE                  |
-|                         | addHeader               |                         | REMOVE                  |
-|                         | removeHeader            |                         | REMOVE                  |
-| toJsonString            | toJsonString            | api_header_as_json      | toJsonString            |
+| Nodejs              | PHP                 | Python             | Golang             | Proposed camel or snake |
+| --------------------| ------------------- | ------------------ | ------------------ | ----------------------- |
+| addTo               | addTo               |                    |                    | addTo                   |
+|                     | setTo               |                    |                    | setTo                   |
+|                     | setTos              |                    |                    | REMOVE                  |
+|                     | removeTo            |                    |                    | REMOVE                  |
+|                     | setSubstitutions    | set_substitution   |                    | setSub                  |
+| addSubVal           | addSubstitution     | add_substitution   | AddSubstitution    | addSub                  |
+| setUniqueArgs       | setUniqueArgs       | set_unique_args    |                    | setUniqueArgs           |
+| addUniqueArgs       | addUniqueArgs       | add_unique_args    | AddUniqueArg       | addUniqueArgs           |
+| setCategory         | setCategory         | set_category       |                    | setCategory             |
+| addCategory         | addCategory         | add_category       | AddCategory        | addCategory             |
+|                     | setCategories       |                    |                    | REMOVE                  |
+|                     | removeCategory      |                    |                    | REMOVE                  |
+| setSection          | setSections         | set_section        |                    | setSection              |
+| addSection          | addSection          | add_section        | AddSection         | addSection              |
+| setFilterSetting    | setFilterSetting    |                    |                    | setFilters              |
+| addFilterSetting    | addFilterSetting    | add_filter         | AddFilter          | addFilters              |
+|                     | setHeaders          |                    |                    | REMOVE                  |
+|                     | addHeader           |                    |                    | REMOVE                  |
+|                     | removeHeader        |                    |                    | REMOVE                  |
+| toJsonString        | toJsonString        | api_header_as_json | GetHeaders         | toJsonString            |
 
 
 
