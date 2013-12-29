@@ -19,28 +19,28 @@ section      = {};
 filters      = {};
 ```
 
-| Nodejs                  | PHP                     | Proposed              |
-| ----------------------- | ----------------------- |-----------------------|
-| addTo                   | addTo                   | addTo                 |
-|                         | setTo                   | setTo                 |
-|                         | setTos                  | REMOVE                |
-|                         | removeTo                | REMOVE                |
-|                         | setSubstitutions        | setSub                |
-| addSubVal               | addSubstitution         | addSub                |
-| setUniqueArgs           | setUniqueArgs           | setUniqueArgs         |
-| addUniqueArgs           | AddUniqueArgs           | setUniqueArgs         |
-| addCategory             | addCategory             | addCategory           |
-| setCategory             | setCategory             | setCategory           |
-|                         | setCategories           | REMOVE                |
-|                         | removeCategory          | REMOVE                |
-| setSection              | setSections             | setSection            |
-| addSection              | addSection              | addSection            |
-| setFilterSetting        | setFilterSetting        | setFilters            |
-| addFilterSetting        | addFilterSetting        | addFilters            |
-|                         | setHeaders              | REMOVE                |
-|                         | addHeader               | REMOVE                |
-|                         | removeHeader            | REMOVE                |
-| toJsonString            | toJsonString            | toJsonString          |
+| Nodejs                  | PHP                     | Python                  | Proposed (camel||snake)|
+| ----------------------- | ----------------------- | ----------------------- | -----------------------|
+| addTo                   | addTo                   |                         | addTo                  |
+|                         | setTo                   |                         | setTo                  |
+|                         | setTos                  |                         | REMOVE                 |
+|                         | removeTo                |                         | REMOVE                 |
+|                         | setSubstitutions        | set_substitution        | setSub                 |
+| addSubVal               | addSubstitution         | add_substitution        | addSub                 |
+| setUniqueArgs           | setUniqueArgs           | set_unique_args         | setUniqueArgs          |
+| addUniqueArgs           | addUniqueArgs           | add_unique_args         | addUniqueArgs          |
+| addCategory             | addCategory             | add_category            | addCategory            |
+| setCategory             | setCategory             | set_category            | setCategory            |
+|                         | setCategories           |                         | REMOVE                 |
+|                         | removeCategory          |                         | REMOVE                 |
+| setSection              | setSections             | set_section             | setSection             |
+| addSection              | addSection              | add_section             | addSection             |
+| setFilterSetting        | setFilterSetting        |                         | setFilters             |
+| addFilterSetting        | addFilterSetting        | add_filter              | addFilters             |
+|                         | setHeaders              |                         | REMOVE                 |
+|                         | addHeader               |                         | REMOVE                 |
+|                         | removeHeader            |                         | REMOVE                 |
+| toJsonString            | toJsonString            | api_header_as_json      | toJsonString           |
 
 
 
