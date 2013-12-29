@@ -19,7 +19,7 @@ section      = {};
 filters      = {};
 ```
 
-| Nodejs                  | PHP                     | Python                  | Proposed (camel||snake) |
+| Nodejs                  | PHP                     | Python                  | Proposed camel or snake |
 | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
 | addTo                   | addTo                   |                         | addTo                   |
 |                         | setTo                   |                         | setTo                   |
