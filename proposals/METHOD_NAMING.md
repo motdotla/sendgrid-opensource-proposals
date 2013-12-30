@@ -40,7 +40,7 @@ filters      = {};
 |                     | addHeader           |                    |                    | REMOVE                  |
 |                     | setHeaders          |                    |                    | REMOVE                  |
 |                     | removeHeader        |                    |                    | REMOVE                  |
-| toJsonString        | toJsonString        | api_header_as_json | GetHeaders         | toJsonString            |
+| toJsonString        | toJsonString        | api_header_as_json | GetHeaders         | GetHeaders              |
 
 
 
