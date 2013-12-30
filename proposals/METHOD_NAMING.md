@@ -22,21 +22,21 @@ filters      = {};
 | Nodejs              | PHP                 | Python             | Golang             | Proposed camel or snake |
 | --------------------| ------------------- | ------------------ | ------------------ | ----------------------- |
 | addTo               | addTo               |                    |                    | addTo                   |
-|                     | setTo               |                    |                    | setTo                   |
-|                     | setTos              |                    |                    | REMOVE                  |
+|                     | setTo               |                    |                    | REMOVE                  |
+|                     | setTos              |                    |                    | setTos                  |
 |                     | removeTo            |                    |                    | REMOVE                  |
-|                     | setSubstitutions    | set_substitution   |                    | setSub                  |
-| addSubVal           | addSubstitution     | add_substitution   | AddSubstitution    | addSub                  |
+|                     | setSubstitutions    | set_substitution   |                    | setSubstitutions        |
+| addSubVal           | addSubstitution     | add_substitution   | AddSubstitution    | addSubstitution         |
 | setUniqueArgs       | setUniqueArgs       | set_unique_args    |                    | setUniqueArgs           |
-| addUniqueArgs       | addUniqueArgs       | add_unique_args    | AddUniqueArg       | addUniqueArgs           |
-| setCategory         | setCategory         | set_category       |                    | setCategory             |
+| addUniqueArgs       | addUniqueArgs       | add_unique_args    | AddUniqueArg       | addUniqueArg            |
+| setCategory         | setCategory         | set_category       |                    | REMOVE                  |
 | addCategory         | addCategory         | add_category       | AddCategory        | addCategory             |
-|                     | setCategories       |                    |                    | REMOVE                  |
+|                     | setCategories       |                    |                    | setCategories           |
 |                     | removeCategory      |                    |                    | REMOVE                  |
-| setSection          | setSections         | set_section        |                    | setSection              |
+| setSection          | setSections         | set_section        |                    | setSections             |
 | addSection          | addSection          | add_section        | AddSection         | addSection              |
 | setFilterSetting    | setFilterSetting    |                    |                    | setFilters              |
-| addFilterSetting    | addFilterSetting    | add_filter         | AddFilter          | addFilters              |
+| addFilterSetting    | addFilterSetting    | add_filter         | AddFilter          | addFilter               |
 |                     | setHeaders          |                    |                    | REMOVE                  |
 |                     | addHeader           |                    |                    | REMOVE                  |
 |                     | removeHeader        |                    |                    | REMOVE                  |
