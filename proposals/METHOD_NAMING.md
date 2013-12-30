@@ -24,25 +24,25 @@ filters      = {};
 | Nodejs              | PHP                 | Python             | Golang             | Proposed camel or snake |
 | --------------------| ------------------- | ------------------ | ------------------ | ----------------------- |
 | addTo               | addTo               |                    |                    | addTo                   |
-|                     | setTo               |                    |                    | REMOVE                  |
-|                     | setTos              |                    |                    | setTos                  |
-|                     | removeTo            |                    |                    | REMOVE                  |
-| addSubVal           | addSubstitution     | add_substitution   | AddSubstitution    | addSubstitution         |
-|                     | setSubstitutions    | set_substitution   |                    | setSubstitutions        |
-| addUniqueArgs       | addUniqueArgs       | add_unique_args    | AddUniqueArg       | addUniqueArg            |
+|                     |                     |                    |                    | REMOVE                  |
+| setTos              | setTos              |                    |                    | setTos                  |
+|                     |                     |                    |                    | REMOVE                  |
+| addSubstitution     | addSubstitution     | add_substitution   | AddSubstitution    | addSubstitution         |
+| setSubstitutions    | setSubstitutions    | set_substitution   |                    | setSubstitutions        |
+| addUniqueArg        | addUniqueArg        | add_unique_args    | AddUniqueArg       | addUniqueArg            |
 | setUniqueArgs       | setUniqueArgs       | set_unique_args    |                    | setUniqueArgs           |
 | addCategory         | addCategory         | add_category       | AddCategory        | addCategory             |
-| setCategory         | setCategory         | set_category       |                    | REMOVE                  |
-|                     | setCategories       |                    |                    | setCategories           |
-|                     | removeCategory      |                    |                    | REMOVE                  |
+|                     |                     | set_category       |                    | REMOVE                  |
+| setCategories       | setCategories       |                    |                    | setCategories           |
+|                     |                     |                    |                    | REMOVE                  |
 | addSection          | addSection          | add_section        | AddSection         | addSection              |
-| setSection          | setSections         | set_section        |                    | setSections             |
-| addFilterSetting    | addFilterSetting    | add_filter         | AddFilter          | addFilter               |
-| setFilterSetting    | setFilterSetting    |                    |                    | setFilters*             |
-|                     | addHeader           |                    |                    | REMOVE                  |
-|                     | setHeaders          |                    |                    | REMOVE                  |
-|                     | removeHeader        |                    |                    | REMOVE                  |
-| toJsonString        | toJsonString        | api_header_as_json | GetHeaders         | jsonString              |
+| setSections         | setSections         | set_section        |                    | setSections             |
+| addFilter           | addFilter           | add_filter         | AddFilter          | addFilter               |
+| setFilters          | setFilters          |                    |                    | setFilters*             |
+|                     |                     |                    |                    | REMOVE                  |
+|                     |                     |                    |                    | REMOVE                  |
+|                     |                     |                    |                    | REMOVE                  |
+| jsonString          | jsonString          | api_header_as_json | GetHeaders         | jsonString              |
 
 
 
