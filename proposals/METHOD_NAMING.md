@@ -19,6 +19,8 @@ section      = {};
 filters      = {};
 ```
 
+*optional
+
 | Nodejs              | PHP                 | Python             | Golang             | Proposed camel or snake |
 | --------------------| ------------------- | ------------------ | ------------------ | ----------------------- |
 | addTo               | addTo               |                    |                    | addTo                   |
@@ -36,7 +38,7 @@ filters      = {};
 | addSection          | addSection          | add_section        | AddSection         | addSection              |
 | setSection          | setSections         | set_section        |                    | setSections             |
 | addFilterSetting    | addFilterSetting    | add_filter         | AddFilter          | addFilter               |
-| setFilterSetting    | setFilterSetting    |                    |                    | setFilters              |
+| setFilterSetting    | setFilterSetting    |                    |                    | setFilters*             |
 |                     | addHeader           |                    |                    | REMOVE                  |
 |                     | setHeaders          |                    |                    | REMOVE                  |
 |                     | removeHeader        |                    |                    | REMOVE                  |
