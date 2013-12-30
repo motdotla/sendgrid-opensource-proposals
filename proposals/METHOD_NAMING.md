@@ -25,20 +25,20 @@ filters      = {};
 |                     | setTo               |                    |                    | REMOVE                  |
 |                     | setTos              |                    |                    | setTos                  |
 |                     | removeTo            |                    |                    | REMOVE                  |
-|                     | setSubstitutions    | set_substitution   |                    | setSubstitutions        |
 | addSubVal           | addSubstitution     | add_substitution   | AddSubstitution    | addSubstitution         |
-| setUniqueArgs       | setUniqueArgs       | set_unique_args    |                    | setUniqueArgs           |
+|                     | setSubstitutions    | set_substitution   |                    | setSubstitutions        |
 | addUniqueArgs       | addUniqueArgs       | add_unique_args    | AddUniqueArg       | addUniqueArg            |
-| setCategory         | setCategory         | set_category       |                    | REMOVE                  |
+| setUniqueArgs       | setUniqueArgs       | set_unique_args    |                    | setUniqueArgs           |
 | addCategory         | addCategory         | add_category       | AddCategory        | addCategory             |
+| setCategory         | setCategory         | set_category       |                    | REMOVE                  |
 |                     | setCategories       |                    |                    | setCategories           |
 |                     | removeCategory      |                    |                    | REMOVE                  |
-| setSection          | setSections         | set_section        |                    | setSections             |
 | addSection          | addSection          | add_section        | AddSection         | addSection              |
-| setFilterSetting    | setFilterSetting    |                    |                    | setFilters              |
+| setSection          | setSections         | set_section        |                    | setSections             |
 | addFilterSetting    | addFilterSetting    | add_filter         | AddFilter          | addFilter               |
-|                     | setHeaders          |                    |                    | REMOVE                  |
+| setFilterSetting    | setFilterSetting    |                    |                    | setFilters              |
 |                     | addHeader           |                    |                    | REMOVE                  |
+|                     | setHeaders          |                    |                    | REMOVE                  |
 |                     | removeHeader        |                    |                    | REMOVE                  |
 | toJsonString        | toJsonString        | api_header_as_json | GetHeaders         | toJsonString            |
 
