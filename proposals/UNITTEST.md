@@ -4,6 +4,8 @@ Currently we do testing in different ways. I want to make a simple standard that
 
 ## Example
 
-```assert("{"to":"scott@sendgrid.com", "file[pic.jpg]": "somebinaryrepresentationofthis", "x-smtpapi": "themjson"}", "{"to":"yamil@sendgrid.com"}") => false
 ```
+assert("{"to":"scott@sendgrid.com", "file[pic.jpg]": "somebinaryrepresentationofthis", "x-smtpapi": "themjson"}", "{"to":"yamil@sendgrid.com"}") => false
+```
+
 Simple as that. It will test literally everything. And can be used in travis too
