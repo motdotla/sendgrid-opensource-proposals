@@ -9,3 +9,7 @@ assert("{"to":"scott@sendgrid.com", "file[pic.jpg]": "somebinaryrepresentationof
 ```
 
 Simple as that. It will test literally everything. And can be used in travis too
+
+## Proposed file:
+
+<https://github.com/sendgrid/smtpapi-nodejs/blob/master/test/smtpapi_test_strings.json>
