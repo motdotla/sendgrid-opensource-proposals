@@ -25,24 +25,24 @@ filters      = {};
 | Nodejs**            | PHP**               | Python             | Golang             | Proposed camel or snake |
 | --------------------| ------------------- | ------------------ | ------------------ | ----------------------- |
 | addTo               | addTo               |                    |                    | addTo                   |
-|                     |                     |                    |                    | REMOVE                  |
+|                     | setTo               |                    |                    | REMOVE                  |
 | setTos              | setTos              |                    |                    | setTos                  |
-|                     |                     |                    |                    | REMOVE                  |
+|                     | removeTo            |                    |                    | REMOVE                  |
 | addSubstitution     | addSubstitution     | add_substitution   | AddSubstitution    | addSubstitution         |
 | setSubstitutions    | setSubstitutions    | set_substitution   |                    | setSubstitutions        |
 | addUniqueArg        | addUniqueArg        | add_unique_args    | AddUniqueArg       | addUniqueArg            |
 | setUniqueArgs       | setUniqueArgs       | set_unique_args    |                    | setUniqueArgs           |
 | addCategory         | addCategory         | add_category       | AddCategory        | addCategory             |
-|                     |                     | set_category       |                    | REMOVE                  |
+|                     | setCategory         | set_category       |                    | REMOVE                  |
 | setCategories       | setCategories       |                    |                    | setCategories           |
-|                     |                     |                    |                    | REMOVE                  |
+|                     | removeCategory      |                    |                    | REMOVE                  |
 | addSection          | addSection          | add_section        | AddSection         | addSection              |
 | setSections         | setSections         | set_section        |                    | setSections             |
 | addFilter           | addFilter           | add_filter         | AddFilter          | addFilter               |
 | setFilters          | setFilters          |                    |                    | setFilters*             |
-|                     |                     |                    |                    | REMOVE                  |
-|                     |                     |                    |                    | REMOVE                  |
-|                     |                     |                    |                    | REMOVE                  |
+|                     | addHeader           |                    |                    | REMOVE                  |
+|                     | setHeaders          |                    |                    | REMOVE                  |
+|                     | removeHeader        |                    |                    | REMOVE                  |
 | jsonString          | jsonString          | api_header_as_json | GetHeaders         | jsonString              |
 
 
