@@ -6,6 +6,7 @@ This document is a moving target and likely temporary. It's a tool to workout br
 
 * <del>[Drop SMTP support from libraries](http://github.com/scottmotte/sendgrid-opensource-proposals/blob/master/proposals/completed/DROP_SMTP.md)</del>
 * <del>[Unify naming for SMTPAPI libraries](http://github.com/scottmotte/sendgrid-opensource-proposals/blob/master/proposals/completed/METHOD_NAMING.md)</del>
+* [Port](http://github.com/scottmotte/sendgrid-opensource-proposals/blob/master/proposal/PORT.md)
 
 ## TODOS
 
@@ -13,6 +14,7 @@ This document is a moving target and likely temporary. It's a tool to workout br
 * Obj C library should be transfered directly under SendGrid account <https://github.com/sendgrid/sendgrid-objc>. Currently a fork.
 * Eddie's already getting the tracker agent to track versions of libraries being used. Working with Suchit on that.
 * Go through the smtpapi libraries and try to standardize the unittests - using the given json file.
+* smtpapi-java lib needs to be built for 1.6. Ask a Java person how to do this.
 
 ## Status
 
