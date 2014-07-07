@@ -1,3 +1,5 @@
+The gist of this was completed. It will be given a fresh look, but the majority of the methods from all the libraries are closely inline with this now.
+
 # Bring the SMTPAPI libraries method naming closely inline with each other across languages
 
 The new smtpapi libraries should have method naming closely inline with each other.
