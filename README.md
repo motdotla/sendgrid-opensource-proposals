@@ -36,6 +36,7 @@ This document is a moving target and likely temporary. It's a tool to workout br
 * <https://github.com/sendgrid/sendgrid-python> 0
 * <https://github.com/eddiezane/sendgrid-ruby> 0
 
+#### Libs without SMTPAPI sub-libs
 
 * <https://github.com/sendgrid/sendgrid-apex> 0
 * <https://github.com/sendgrid/sendgrid-objc> 2
