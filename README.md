@@ -4,7 +4,7 @@ This document is a moving target and likely temporary. It's a tool to workout br
 
 ## Proposals
 
-* [Drop SMTP support from libraries](http://github.com/scottmotte/sendgrid-opensource-proposals/blob/master/proposals/DROP_SMTP.md)
+* -[Drop SMTP support from libraries](http://github.com/scottmotte/sendgrid-opensource-proposals/blob/master/proposals/completed/DROP_SMTP.md)-
 * [Unify naming for SMTPAPI libraries](http://github.com/scottmotte/sendgrid-opensource-proposals/blob/master/proposals/METHOD_NAMING.md)
 
 
