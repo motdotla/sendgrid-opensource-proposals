@@ -10,6 +10,7 @@ This document is a moving target and likely temporary. It's a tool to workout br
 
 ## TODOS
 
+* discuss should we adjust our libraries to be close to the language or should it follow a standard naming scheme. Brandon, Yamil, and Nick, and Robin. 
 * add user_agent to the libs.
 * Start the process of bringing in some of [Awwa](https://github.com/awwa)'s stuff to the main SendGrid GitHub.
 * Obj C library should be transfered directly under SendGrid account <https://github.com/sendgrid/sendgrid-objc>. Currently a fork.
