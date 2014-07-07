@@ -6,7 +6,7 @@ This document is a moving target and likely temporary. It's a tool to workout br
 
 * <del>[Drop SMTP support from libraries](http://github.com/scottmotte/sendgrid-opensource-proposals/blob/master/proposals/completed/DROP_SMTP.md)</del>
 * <del>[Unify naming for SMTPAPI libraries](http://github.com/scottmotte/sendgrid-opensource-proposals/blob/master/proposals/completed/METHOD_NAMING.md)</del>
-* [Port](http://github.com/scottmotte/sendgrid-opensource-proposals/blob/master/proposal/PORT.md)
+* [Port](https://github.com/scottmotte/sendgrid-opensource-proposals/blob/master/proposals/PORT.md)
 
 ## TODOS
 
