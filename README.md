@@ -35,12 +35,11 @@ This document is a moving target and likely temporary. It's a tool to workout br
 * Discuss and Decide: Awwa more involved. Begin by pulling in Awwa's smtpapi lib. Before or after my vacay.
 * Discuss and Decide: Yamil's pythong library BCC approach. Multiple emails in the to field vs not multiple in to. Historic approach vs future approach. 
 * Discuss and decide: Options to pass through for port, host, etc. We're going with this:
-
-- Protocol (`https`, `http`) - Maybe your environment only allows for HTTP connections.
-- Host (`api.sendgrid.com`, `secret-hostname.sendgrid.com`, `bucket.runscope.io`) - For things like Runscope or HV customers
-- Port (`80`, `443`) - Maybe you're an engineer testing our mail pipeline and you have it running on a weird port
-- Endpoint (`/api/mail.send.json`) - _I dunno what else you'd do, but maybe in the future this is useful_
-- URL as a whole (`https://api.sendgrid.com/api/mail.send.json`) - for simplicity's sake
+  - Protocol (`https`, `http`) - Maybe your environment only allows for HTTP connections.
+  - Host (`api.sendgrid.com`, `secret-hostname.sendgrid.com`, `bucket.runscope.io`) - For things like Runscope or HV customers
+  - Port (`80`, `443`) - Maybe you're an engineer testing our mail pipeline and you have it running on a weird port
+  - Endpoint (`/api/mail.send.json`) - _I dunno what else you'd do, but maybe in the future this is useful_
+  - URL as a whole (`https://api.sendgrid.com/api/mail.send.json`) - for simplicity's sake
 
 ## Status - 32
 

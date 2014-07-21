@@ -2,10 +2,13 @@
 
 Proposed: Each of our libraries should offer the ability to change the host/port.
 
-Newly Proposed: 
+Newly Proposed & Accepted: 
 
-* setUrl - default to: https://api.sendgrid.com
-* setEndpoint - default to: /api/mail.send.json
+* Protocol (`https`, `http`) - Maybe your environment only allows for HTTP connections.
+* Host (`api.sendgrid.com`, `secret-hostname.sendgrid.com`, `bucket.runscope.io`) - For things like Runscope or HV customers
+* Port (`80`, `443`) - Maybe you're an engineer testing our mail pipeline and you have it running on a weird port
+* Endpoint (`/api/mail.send.json`) - _I dunno what else you'd do, but maybe in the future this is useful_
+* URL as a whole (`https://api.sendgrid.com/api/mail.send.json`) - for simplicity's sake
 
 ## Complete (sort of. non-standardized)
 
