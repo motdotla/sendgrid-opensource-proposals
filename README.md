@@ -29,7 +29,7 @@ This document is a moving target and likely temporary. It's a tool to workout br
 ### Discuss and Decide
 
 * Discuss and Decide: Python and Go libs ready for 1.0?
-* Discuss and Decide: To be idiomatic or not to be idiomatic. [1](https://github.com/scottmotte/sendgrid-opensource-proposals/commit/5b2d1745044c08b5a01d9f113583a906bf2760d4#commitcomment-6921910)
+* Discuss and Decide: To be idiomatic or not to be idiomatic. [1](https://github.com/scottmotte/sendgrid-opensource-proposals/commit/5b2d1745044c08b5a01d9f113583a906bf2760d4#commitcomment-6921910) Idiomatic always calls the standard calls - like addTo.
 * DONE (Eddie making it happen): Discuss and Decide: User agent to libs.
 * Discuss and Decide: Awwa more involved. Begin by pulling in Awwa's smtpapi lib. Before or after my vacay.
 * Discuss and Decide: Yamil's pythong library BCC approach. Multiple emails in the to field vs not multiple in to. Historic approach vs future approach. 
