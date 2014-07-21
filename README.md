@@ -17,6 +17,10 @@ This document is a moving target and likely temporary. It's a tool to workout br
 * New: [nodemailer-sendgrid-transport](https://github.com/sendgrid/nodemailer-sendgrid-transport)
 * New: sendgrid-apex (salesforce)
 * New: smtpapi-objc
+* New: sendgrid-cobol
+* New: Appcelerator
+* New: sendgrid-parse
+* New: django dropin for SendGrid with web
 
 ### Low Hanging Fruit
 
